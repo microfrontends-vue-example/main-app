@@ -1,5 +1,24 @@
-# Vue 3 + TypeScript + Vite
+# main-app
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is the main (Host) application that integrates multiple remote apps using Module Federation (based on Vue 3 + Vite).
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Features
+
+- Connects remote apps:
+    - `product-card-app`
+    - `cart-app`
+    - `admin-app`
+- Shares global state using Pinia
+- Handles routing and authentication
+- Guards admin routes with middleware
+- Loads remote components dynamically via `vite-plugin-federation`
+
+## Technologies
+
+- Vue 3
+- Vite
+- Pinia
+- Vue Router
+- Module Federation (originjs plugin)
+
+## Project structure
