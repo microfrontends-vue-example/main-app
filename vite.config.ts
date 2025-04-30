@@ -13,9 +13,9 @@ export default defineConfig({
         './stores': './src/stores/index.ts'
       },
       remotes: {
-        productCardApp: 'http://localhost:5002/assets/productCardEntry.js',
-        cartApp: 'http://localhost:5003/assets/cartEntry.js',
-        adminApp: 'http://localhost:5004/assets/adminEntry.js'
+        productCardApp: 'https://product-card-app-ashen.vercel.app/assets/productCardEntry.js',
+        cartApp: 'https://cart-app-six-omega.vercel.app/assets/cartEntry.js',
+        adminApp: 'https://admin-app-silk.vercel.app/assets/adminEntry.js'
       },
       shared: ['vue', 'pinia']
     }),
