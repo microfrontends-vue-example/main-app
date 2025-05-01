@@ -56,6 +56,7 @@ const handleLogout = () => {
   justify-content: space-between;
   padding: 1rem 2rem;
   box-sizing: border-box;
+  background-color: #242424;
 }
 
 .logo a {
